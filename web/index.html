@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Battle Game Notification</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Battle Game Notification</h1>
+
+  <button id="darkModeToggle">Toggle Dark Mode</button>
+
+  <div class="input-group">
+    <label>
+      Player Name: 
+      <input type="text" id="player" placeholder="e.g., Ash" />
+    </label>
+
+    <label>
+      Action: 
+      <input type="text" id="action" placeholder="e.g., Fire Blast" />
+    </label>
+
+    <label>
+      Damage: 
+      <input type="number" id="damage" placeholder="e.g., 50" min="0" />
+    </label>
+
+    <label>
+      Notification Type: 
+      <select id="notifyType">
+        <option value="console">Console</option>
+        <option value="sound">Sound</option>
+        <option value="vibration">Vibration</option>
+      </select>
+    </label>
+
+    <button onclick="sendNotification()">Notify</button>
+  </div>
+
+  <div class="notification-log" id="log"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
