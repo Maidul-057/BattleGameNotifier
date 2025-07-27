@@ -1,4 +1,4 @@
-#🕹️BattleGameNotifier
+# BattleGameNotifier
 A simple Java-based notification system for turn-based battle games, extended with a web-based UI that supports sound, console, and vibration notifications — including dark mode!
 #Context
 This project was originally assigned as part of my Software Engineering & Design Patterns course.
@@ -13,7 +13,7 @@ The power of abstraction and polymorphism
 How to improve maintainability using OOP design principles
 How desktop/console logic can inspire web development
 
-#Features:
+# Features:
 
 Java Version:
 
@@ -29,7 +29,7 @@ Sound & vibration support
 Responsive design
 No backend required
 
-#Run Instructions:
+# Run Instructions:
 
 For Java:
 
@@ -41,4 +41,4 @@ For Web:
 
 Open web/index.html in any browser
 OR
-Visit the GitHub Pages link above
+Visit the GitHub Pages link
